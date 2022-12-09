@@ -1,0 +1,29 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Don't get hacked</title>
+        <script type="text/javascript" src="PPT.js"></script>
+        <link href="./PPT.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body id="body" onload="lore()">
+        <button id="start" onclick="start()">Start this very confiable download
+            <span class="material-symbols-outlined">download</span>
+        </button>
+        <p id="lore">Hey, you just found a new game to download in Baixaki, let's play it!</p>
+        <h2 id="pontosPlayer">Points: 0/3</h2>
+        <div id="player">
+            <button id="pedra" onclick="escolhaPedra()">Rock</button>
+            <button id="papel" onclick="escolhaPapel()">Paper</button>
+            <button id="tesoura" onclick="escolhaTesoura()">Scissors</button>
+        </div>
+        <h1 id="vs">Get hacked nerd!</h1>
+        <h2 id="pontosPC">Points: 0/3</h2>
+        <div id="PC">
+            <button id="pedraPC">Rock</button>
+            <button id="papelPC">Paper</button>
+            <button id="tesouraPC">Scissors</button>
+        </div>
+        <button id="restart" onclick="restart()">Play again</button>
+    </body>
+</html>
